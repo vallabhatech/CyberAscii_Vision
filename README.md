@@ -295,10 +295,22 @@ This project is private. All rights reserved.
 - **Vite Documentation**: [https://vitejs.dev/](https://vitejs.dev/)
 - **React Documentation**: [https://react.dev/](https://react.dev/)
 
+## Documentation
+
+For detailed documentation, see the `/docs` directory:
+
+- **[Architecture Documentation](docs/architecture.md)**: High-level architecture, component breakdown, data flow diagrams, and technology stack details
+- **[Setup Guide](docs/setup.md)**: Detailed installation instructions, environment setup, and troubleshooting installation issues
+- **[API Documentation](docs/api.md)**: Google Gemini API integration details, authentication, request/response schemas, and security considerations
+- **[Development Guide](docs/development.md)**: Development workflow, coding standards, component development patterns, and Git workflow
+- **[Testing Guide](docs/testing.md)**: Manual testing procedures, test cases, browser compatibility testing, and performance testing
+- **[Deployment Guide](docs/deployment.md)**: Deployment instructions for Vercel, Netlify, GitHub Pages, AWS S3, Firebase, and Docker
+- **[Troubleshooting Guide](docs/troubleshooting.md)**: Comprehensive troubleshooting for camera, visual, audio, AI analysis, performance, and deployment issues
+
 ## Support
 
 For issues or questions:
-- Check the troubleshooting section above
+- Check the [troubleshooting guide](docs/troubleshooting.md) for detailed solutions
 - Review browser console for error messages
 - Verify environment variables are correctly set
 - Ensure all dependencies are properly installed

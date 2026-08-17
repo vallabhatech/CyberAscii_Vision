@@ -415,7 +415,8 @@ jobs:
       run: npm install
     
     - name: Run tests
-      run: npm test
+      # Note: No automated tests currently configured
+      # Manual testing procedures are documented in this file
     
     - name: Build
       run: npm run build
@@ -457,7 +458,8 @@ export const mockAnalysisResult: AnalysisResult = {
 
 2. **Run tests**:
    ```bash
-   npm test
+   # Note: No automated tests currently configured
+   # Run manual testing procedures instead
    ```
 
 ### Staging Environment

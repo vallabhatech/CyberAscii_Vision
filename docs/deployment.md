@@ -488,7 +488,8 @@ jobs:
       run: npm install
     
     - name: Run tests
-      run: npm test
+      # Note: No automated tests currently configured
+      # Manual testing procedures are documented in docs/testing.md
     
     - name: Build
       run: npm run build
