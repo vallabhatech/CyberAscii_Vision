@@ -30,7 +30,7 @@ This file records the repository history visible from GitHub and the modernizati
 - Paused rendering while the browser tab is hidden.
 - Improved camera constraints and cleanup.
 
-### CURRENT — chore: harden deployment and refresh project documentation
+### 5440910c — chore: harden deployment and refresh project documentation
 - Reworked documentation around the client-only architecture.
 - Added Vercel cache/security headers.
 - Added GitHub Actions build verification.
