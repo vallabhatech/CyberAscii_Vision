@@ -1,7 +1,5 @@
 {
   "name": "CyberAscii Vision",
-  "description": "Real-time camera to ASCII art converter with AI-powered scene analysis.",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "description": "Real-time camera to ASCII art renderer with local browser processing.",
+  "requestFramePermissions": ["camera"]
 }

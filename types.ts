@@ -4,20 +4,12 @@ export interface AsciiOptions {
   contrast: number;
   colorMode: 'matrix' | 'bw' | 'color' | 'retro';
   density: 'simple' | 'complex' | 'binary' | 'blocks';
-  resolution: number; // Downscaling factor (0.1 - 1.0)
-}
-
-export interface AnalysisResult {
-  description: string;
-  tags: string[];
-  threatLevel: string;
+  resolution: number; // Sampling scale from 0.1 to 1.0.
 }
 
 export const DENSITY_MAPS = {
   simple: " .:-=+*#%@",
-  // User requested characters <.!@#$%^&*, sorted by visual density for smoothness
-  // Original order was keyboard layout which causes flickering
-  complex: " .^!*<&%$#@", 
+  complex: " .^!*<&%$#@",
   binary: " 01",
   blocks: " ░▒▓█",
 };
